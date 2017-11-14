@@ -3,7 +3,7 @@
 		<div>
 			<div v-if="focus.length" class="slider-wrapper" ref="sliderWrapper">
 	          <slider>
-	            <div class="slide-item" v-for="(item,index) in focus">
+	            <div class="slider-item" v-for="(item,index) in focus">
 	              <a v-if='index===0' :href="focus[0].jump_info.url">
 	                <img class="needsclick" :src="focus[0].pic_info.url">
 	              </a>
